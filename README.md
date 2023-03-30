@@ -18,7 +18,7 @@ While I was learning about the media buttons, I figured out that I can manipulat
 4. Under `Import from URL`, paste the URL for the raw contents of the script:
 
     ```
-    https://raw.githubusercontent.com/adutton/freegal-media-controls/main/freegal-media-controls.js
+    https://raw.githubusercontent.com/adutton/freegal-media-controls/main/freegal-media-controls.user.js
     ```
   
     and click `Install`
@@ -32,6 +32,11 @@ While I was learning about the media buttons, I figured out that I can manipulat
 6. Script is installed
 
 # Release Notes
+
+## 1.1 Renamed to `.user.js`
+
+* Rename script to use `.user.js` extension instead of `.js`
+* Update script metadata
 
 ## 1.0 Initial Release
 
