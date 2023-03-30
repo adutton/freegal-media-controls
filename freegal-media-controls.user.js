@@ -7,7 +7,7 @@
 // @updateURL    https://raw.githubusercontent.com/adutton/freegal-media-controls/main/freegal-media-controls.user.js
 // @downloadURL  https://raw.githubusercontent.com/adutton/freegal-media-controls/main/freegal-media-controls.user.js
 // @match        https://*.freegalmusic.com/*
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @icon         https://freegalmusic.com/favicon.ico
 // @grant        none
 // ==/UserScript==
 
