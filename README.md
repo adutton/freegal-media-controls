@@ -1,6 +1,12 @@
 # freegal-media-controls
 UserScript that adds media button (next, prev) and music metadata support to Freegal
 
+# Motivation
+
+I love Freegal and use the streaming music service from my local public library.  Unfortunately, the web player does not respond to some media buttons on my bluetooth remote or my keyboard.  Particularly the `Prev Track` and `Next Track` didn't work.  Since I use the music while out of reach of the computer, it is then impossible to skip a song.  I searched the internet for something that would provide the functionality but nothing covered Freegal.  I did attempt to modify some Chrome extensions that added support to other web players but I didn't have any success.  Frustrated, I wrote this small piece of JavaScript to fix it. I use TamperMonkey to make it take effect everytime I load freegalmusic.com.
+
+While I was learning about the media buttons, I figured out that I can manipulate the music metadata that is shown in Windows.  That was a quick add, although I had to introduce a small delay because it was initially firing an update before the webpage had a chance to respond.
+
 # Installation
 
 1. Install [TamperMonkey](https://www.tampermonkey.net/index.php) browser extension
@@ -16,7 +22,6 @@ UserScript that adds media button (next, prev) and music metadata support to Fre
     ```
   
     and click `Install`
-
 
     ![Screenshot of the menu](img/tampermonkey-2-utilities.png)
 
