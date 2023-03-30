@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         Freegal Media Controls
-// @namespace    https://freegalmusic.com/
-// @version      1.0
+// @namespace    https://github.com/adutton/
+// @version      1.1
 // @description  Adds media button (next, prev) and music metadata support to Freegal
-// @author       Aaron Dutton
+// @author       Aaron Dutton (https://github.com/adutton)
+// @updateURL    https://raw.githubusercontent.com/adutton/freegal-media-controls/main/freegal-media-controls.user.js
+// @downloadURL  https://raw.githubusercontent.com/adutton/freegal-media-controls/main/freegal-media-controls.user.js
 // @match        https://*.freegalmusic.com/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
