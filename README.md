@@ -5,6 +5,9 @@ UserScript that adds media button (next, prev) and music metadata support to Fre
 
 1. Install [TamperMonkey](https://www.tampermonkey.net/index.php) browser extension
 2. Open the `⚙️ Dashboard`
+
+    ![Screenshot of the menu](img/tampermonkey-1-menu.png)
+
 3. Click on the `Utilities` tab
 4. Under `Import from URL`, paste the URL for the raw contents of the script:
 
@@ -14,7 +17,13 @@ UserScript that adds media button (next, prev) and music metadata support to Fre
   
     and click `Install`
 
+
+    ![Screenshot of the menu](img/tampermonkey-2-utilities.png)
+
 5. Approve the `Cross Origin Request Permission`
+
+    ![Screenshot of the menu](img/tampermonkey-3-permissions.png)
+
 6. Script is installed
 
 # Release Notes
